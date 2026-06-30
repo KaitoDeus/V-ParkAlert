@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-ParkAlert - Dashboard Hệ thống</title>
+    <!-- Tailwind and FontAwesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Custom CSS Stylesheets -->
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/light.css">
+</head>
+<body class="h-screen w-screen overflow-hidden flex font-sans">
+
+    <!-- Sidebar wrapper dynamic element -->
+    <div id="sidebar-wrapper" class="h-full flex flex-shrink-0"></div>
+
+    <!-- Main Content Container -->
+    <main class="flex-1 flex flex-col min-w-0 h-full overflow-hidden p-6 relative">
+        
+        <!-- Glowing background blobs -->
+        <div class="absolute top-[-20%] right-[-10%] w-[50vw] h-[50vw] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
+        <div class="absolute bottom-[-20%] left-[-10%] w-[50vw] h-[50vw] bg-indigo-900/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
+
+        <!-- Scrollable tab page views content -->
+        <div class="flex-1 overflow-y-auto custom-scrollbar relative z-10 space-y-6">
+            
+            <!-- Citizen Tabs -->
+            <div id="tab-citizen-report" class="hidden grid grid-cols-1 lg:grid-cols-2 gap-6"></div>
+            <div id="tab-citizen-history" class="hidden glass-card rounded-2xl p-6"></div>
+
+            <!-- Authority Tabs -->
+            <div id="tab-authority-analytics" class="hidden space-y-6"></div>
+            <div id="tab-authority-live" class="hidden grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
+            <div id="tab-authority-verify" class="hidden glass-card rounded-2xl p-6"></div>
+
+            <!-- AI System Tabs -->
+            <div id="tab-ai-control" class="hidden grid grid-cols-1 lg:grid-cols-3 gap-6"></div>
+            <div id="tab-ai-records" class="hidden glass-card rounded-2xl p-6"></div>
+
+        </div>
+    </main>
+
+    <!-- Image modal dynamic element -->
+    <div id="modal-wrapper"></div>
+
+    <!-- Modules Javascript bundles -->
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script src="/static/js/citizen.js"></script>
+    <script src="/static/js/authority.js"></script>
+    <script src="/static/js/camera.js"></script>
+    <script src="/static/js/ai.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

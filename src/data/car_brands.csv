@@ -1,0 +1,252 @@
+brand,model
+VinFast,VF 3
+VinFast,VF 5 Plus
+VinFast,VF e34
+VinFast,VF 6
+VinFast,VF 7
+VinFast,VF 8
+VinFast,VF 9
+VinFast,Fadil
+VinFast,Lux A2.0
+VinFast,Lux SA2.0
+VinFast,President
+Toyota,Vios
+Toyota,Camry
+Toyota,Corolla Altis
+Toyota,Corolla Cross
+Toyota,Yaris Cross
+Toyota,Fortuner
+Toyota,Innova Cross
+Toyota,Innova
+Toyota,Raize
+Toyota,Veloz Cross
+Toyota,Avanza Premio
+Toyota,Hilux
+Toyota,Land Cruiser Prado
+Toyota,Land Cruiser
+Toyota,Alphard
+Toyota,Wigo
+Toyota,Yaris
+Hyundai,Grand i10
+Hyundai,Accent
+Hyundai,Elantra
+Hyundai,Creta
+Hyundai,Tucson
+Hyundai,Santa Fe
+Hyundai,Stargazer
+Hyundai,Custin
+Hyundai,Palisade
+Hyundai,Ioniq 5
+Hyundai,Kona
+Hyundai,Avante
+Hyundai,Genesis
+Honda,City
+Honda,Civic
+Honda,Accord
+Honda,HR-V
+Honda,CR-V
+Honda,BR-V
+Honda,Brio
+Honda,Jazz
+Honda,Odyssey
+Kia,Morning
+Kia,Soluto
+Kia,K3
+Kia,K5
+Kia,Sonet
+Kia,Seltos
+Kia,Sportage
+Kia,Sorento
+Kia,Carnival
+Kia,Carens
+Kia,Cerato
+Kia,Optima
+Kia,Rondo
+Kia,Sedona
+Mazda,Mazda2
+Mazda,Mazda3
+Mazda,Mazda6
+Mazda,CX-3
+Mazda,CX-30
+Mazda,CX-5
+Mazda,CX-8
+Mazda,BT-50
+Mazda,CX-9
+Mazda,MX-5 Miata
+Ford,Ranger
+Ford,Ranger Raptor
+Ford,Everest
+Ford,Explorer
+Ford,Transit
+Ford,Territory
+Ford,EcoSport
+Ford,Focus
+Ford,Fiesta
+Ford,Mustang
+Mitsubishi,Xpander
+Mitsubishi,Xforce
+Mitsubishi,Outlander
+Mitsubishi,Pajero Sport
+Mitsubishi,Triton
+Mitsubishi,Attrage
+Mitsubishi,Mirage
+Mitsubishi,Grandis
+Mercedes-Benz,C-Class
+Mercedes-Benz,E-Class
+Mercedes-Benz,S-Class
+Mercedes-Benz,GLA
+Mercedes-Benz,GLB
+Mercedes-Benz,GLC
+Mercedes-Benz,GLE
+Mercedes-Benz,GLS
+Mercedes-Benz,G-Class (G63)
+Mercedes-Benz,Maybach S-Class
+Mercedes-Benz,Maybach GLS
+Mercedes-Benz,EQS SUV
+Mercedes-Benz,EQE SUV
+BMW,3 Series
+BMW,5 Series
+BMW,7 Series
+BMW,X1
+BMW,X3
+BMW,X4
+BMW,X5
+BMW,X6
+BMW,X7
+BMW,i4
+BMW,iX3
+BMW,i7
+BMW,Z4
+Audi,A4
+Audi,A6
+Audi,A8
+Audi,Q2
+Audi,Q3
+Audi,Q5
+Audi,Q7
+Audi,Q8
+Audi,e-tron GT
+Audi,TT
+Lexus,ES
+Lexus,LS
+Lexus,NX
+Lexus,RX
+Lexus,GX
+Lexus,LX600
+Lexus,LM350h
+Lexus,IS
+Lexus,UX
+Nissan,Almera
+Nissan,Kicks e-Power
+Nissan,Navara
+Nissan,Terra
+Nissan,Sunny
+Nissan,X-Trail
+Nissan,Teana
+Nissan,GT-R
+Suzuki,Ertiga
+Suzuki,XL7
+Suzuki,Swift
+Suzuki,Jimny
+Suzuki,Ciaz
+Suzuki,Super Carry
+Suzuki,Vitara
+Subaru,Forester
+Subaru,Outback
+Subaru,WRX
+Subaru,BRZ
+Subaru,XV
+Porsche,911
+Porsche,718 Cayman
+Porsche,718 Boxster
+Porsche,Taycan
+Porsche,Panamera
+Porsche,Macan
+Porsche,Cayenne
+Volkswagen,Polo
+Volkswagen,Virtus
+Volkswagen,T-Cross
+Volkswagen,Tiguan Allspace
+Volkswagen,Teramont
+Volkswagen,Touareg
+Volkswagen,Viloran
+Volkswagen,Scirocco
+Volkswagen,Beetle
+Volvo,S90
+Volvo,XC40
+Volvo,XC60
+Volvo,XC90
+Volvo,V60 Cross Country
+Peugeot,2008
+Peugeot,3008
+Peugeot,5008
+Peugeot,408
+Peugeot,Traveller
+Peugeot,508
+Land Rover,Defender
+Land Rover,Discovery
+Land Rover,Discovery Sport
+Land Rover,Range Rover Evoque
+Land Rover,Range Rover Velar
+Land Rover,Range Rover Sport
+Land Rover,Range Rover
+Tesla,Model 3
+Tesla,Model Y
+Tesla,Model S
+Tesla,Model X
+Tesla,Cybertruck
+BYD,Atto 3
+BYD,Dolphin
+BYD,Seal
+BYD,Han
+BYD,Tang
+BYD,Song Plus
+Wuling,HongGuang Mini EV
+Wuling,Bingo EV
+Wuling,Baojun Yep
+MG,MG5
+MG,ZS
+MG,HS
+MG,Cyberster
+MG,MG RX5
+Chevrolet,Spark
+Chevrolet,Cruze
+Chevrolet,Colorado
+Chevrolet,Trailblazer
+Chevrolet,Captiva
+Rolls-Royce,Phantom
+Rolls-Royce,Ghost
+Rolls-Royce,Cullinan
+Rolls-Royce,Spectre
+Rolls-Royce,Wraith
+Bentley,Continental GT
+Bentley,Flying Spur
+Bentley,Bentayga
+Ferrari,488 GTB
+Ferrari,SF90 Stradale
+Ferrari,Roma
+Ferrari,296 GTB
+Ferrari,Purosangue
+Ferrari,F8 Tributo
+Lamborghini,Aventador
+Lamborghini,Huracan
+Lamborghini,Urus
+Lamborghini,Revuelto
+Aston Martin,DB11
+Aston Martin,DBS
+Aston Martin,Vantage
+Aston Martin,DBX
+Maserati,Ghibli
+Maserati,Levante
+Maserati,Quattroporte
+Maserati,Grecale
+Maserati,MC20
+Jaguar,F-Type
+Jaguar,F-Pace
+Jaguar,E-Pace
+Jaguar,XF
+Jaguar,XE
+Jeep,Wrangler
+Jeep,Grand Cherokee
+Jeep,Gladiator
+Jeep,Compass

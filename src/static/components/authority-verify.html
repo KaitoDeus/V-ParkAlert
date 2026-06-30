@@ -1,0 +1,22 @@
+<h3 class="text-lg font-bold text-white mb-4"><i class="fa-solid fa-shield-halved text-blue-500 mr-2"></i>Danh sách vi phạm chờ phê duyệt</h3>
+
+<!-- Verify alert panel -->
+<div id="verify-alert" class="hidden p-3 rounded-lg text-xs mb-4"></div>
+
+<div class="overflow-x-auto custom-scrollbar">
+    <table class="w-full text-left text-sm">
+        <thead class="bg-slate-900/80 text-gray-400 border-b border-white/5">
+            <tr>
+                <th class="p-4">Bằng chứng</th>
+                <th class="p-4">Biển kiểm soát</th>
+                <th class="p-4">Hành vi vi phạm</th>
+                <th class="p-4">Thời gian xảy ra</th>
+                <th class="p-4">Nguồn phát hiện</th>
+                <th class="p-4">Tác vụ phê duyệt</th>
+            </tr>
+        </thead>
+        <tbody id="pending-violations-tbody">
+            <!-- Dynamic elements loaded via js -->
+        </tbody>
+    </table>
+</div>

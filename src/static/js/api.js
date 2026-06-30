@@ -1,0 +1,10 @@
+const API_URL = '/api/v1';
+let currentRole = '';
+let citizenMap = null;
+let citizenMarker = null;
+let citizenTileLayer = null;
+let analyticsMap = null;
+let analyticsTileLayer = null;
+let mapMarkers = [];
+let playerMode = 'live'; // live or ai
+let currentVideoId = 'sJvEFrG0wq0';

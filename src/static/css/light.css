@@ -1,0 +1,207 @@
+body.light-mode {
+    background: #f8fafc !important;
+    color: #334155 !important;
+}
+body.light-mode .bg-gradient-to-r {
+    background: none !important;
+    background-clip: unset !important;
+    -webkit-background-clip: unset !important;
+    color: #1e3a8a !important;
+}
+body.light-mode .text-white {
+    color: #0f172a !important;
+}
+body.light-mode .bg-blue-600,
+body.light-mode .bg-blue-500,
+body.light-mode .bg-green-600,
+body.light-mode .bg-green-500,
+body.light-mode .bg-red-600,
+body.light-mode .bg-red-500,
+body.light-mode .bg-indigo-600,
+body.light-mode .bg-indigo-500 {
+    color: #ffffff !important;
+}
+body.light-mode .text-gray-400,
+body.light-mode .text-gray-500 {
+    color: #475569 !important;
+}
+body.light-mode .text-gray-300 {
+    color: #1e293b !important;
+}
+body.light-mode .glass-sidebar {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+    backdrop-filter: blur(12px);
+}
+body.light-mode .glass-card {
+    background: rgba(255, 255, 255, 0.85) !important;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04) !important;
+    backdrop-filter: blur(12px);
+}
+body.light-mode .glass-input {
+    background: rgba(0, 0, 0, 0.02) !important;
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    color: #0f172a !important;
+}
+body.light-mode .glass-input:focus {
+    border-color: rgb(59, 130, 246) !important;
+    background: rgba(0, 0, 0, 0.04) !important;
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.15) !important;
+}
+body.light-mode .border-white\/5,
+body.light-mode .border-white\/10 {
+    border-color: rgba(0, 0, 0, 0.08) !important;
+}
+body.light-mode .bg-slate-900\/60,
+body.light-mode .bg-slate-950\/80,
+body.light-mode .bg-slate-900,
+body.light-mode .bg-slate-950,
+body.light-mode .bg-gray-900 {
+    background-color: rgba(241, 245, 249, 0.8) !important;
+}
+body.light-mode .bg-slate-800\/50,
+body.light-mode .bg-slate-800 {
+    background-color: rgba(226, 232, 240, 0.8) !important;
+}
+body.light-mode .bg-green-950\/60,
+body.light-mode .bg-green-950\/50,
+body.light-mode .bg-green-950\/40,
+body.light-mode .bg-green-950\/20 {
+    background-color: #dcfce7 !important;
+    color: #15803d !important;
+    border-color: rgba(34, 197, 94, 0.3) !important;
+}
+body.light-mode .bg-red-950\/60,
+body.light-mode .bg-red-950\/50,
+body.light-mode .bg-red-950\/40,
+body.light-mode .bg-red-950\/20 {
+    background-color: #fee2e2 !important;
+    color: #b91c1c !important;
+    border-color: rgba(239, 68, 68, 0.3) !important;
+}
+body.light-mode .bg-yellow-950\/60,
+body.light-mode .bg-yellow-950\/40,
+body.light-mode .bg-yellow-950\/20 {
+    background-color: #fef3c7 !important;
+    color: #b45309 !important;
+    border-color: rgba(245, 158, 11, 0.3) !important;
+}
+body.light-mode .hover\:bg-white\/5:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+}
+body.light-mode .bg-blue-950\/60 {
+    background-color: rgba(219, 234, 254, 0.8) !important;
+    color: #1e40af !important;
+    border-color: rgba(59, 130, 246, 0.3) !important;
+}
+body.light-mode .bg-purple-950\/60 {
+    background-color: rgba(243, 232, 255, 0.8) !important;
+    color: #6b21a8 !important;
+    border-color: rgba(168, 85, 247, 0.3) !important;
+}
+body.light-mode select option {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+}
+body.light-mode #sidebar-theme-container {
+    background: rgba(0, 0, 0, 0.04) !important;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+body.light-mode #theme-toggle-sidebar {
+    background-color: #ffffff !important;
+    color: #334155 !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+body.light-mode #theme-toggle-sidebar:hover {
+    background-color: #f8fafc !important;
+    color: #0f172a !important;
+}
+body.light-mode table thead {
+    background-color: rgba(241, 245, 249, 0.9) !important;
+    color: #334155 !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+body.light-mode table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+body.light-mode table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.02) !important;
+}
+body.light-mode .bg-green-600\/10 {
+    background-color: rgba(34, 197, 94, 0.15) !important;
+}
+body.light-mode .bg-red-600\/10 {
+    background-color: rgba(239, 68, 68, 0.15) !important;
+}
+body.light-mode .bg-yellow-600\/10 {
+    background-color: rgba(245, 158, 11, 0.15) !important;
+}
+body.light-mode .bg-blue-600\/10 {
+    background-color: rgba(59, 130, 246, 0.15) !important;
+}
+body.light-mode .bg-slate-950\/80 {
+    background-color: rgba(226, 232, 240, 0.8) !important;
+    border-color: rgba(0, 0, 0, 0.08) !important;
+}
+body.light-mode #btn-player-live {
+    background-color: rgb(59, 130, 246) !important;
+    color: #ffffff !important;
+}
+body.light-mode #btn-player-ai {
+    color: #475569 !important;
+}
+body.light-mode .hover\:text-white:hover {
+    color: #0f172a !important;
+}
+body.light-mode .nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.03) !important;
+    color: #0f172a !important;
+}
+body.light-mode .nav-btn.active {
+    background: rgba(59, 130, 246, 0.1) !important;
+    color: rgb(37, 99, 235) !important;
+    border-color: rgba(59, 130, 246, 0.2) !important;
+}
+body.light-mode .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.02) !important;
+}
+body.light-mode .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+body.light-mode .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+body.light-mode select {
+    background-color: rgba(0, 0, 0, 0.02) !important;
+    color: #0f172a !important;
+}
+body.light-mode #dropzone {
+    border-color: rgba(0, 0, 0, 0.15) !important;
+}
+body.light-mode #dropzone:hover {
+    background-color: rgba(0, 0, 0, 0.02) !important;
+    border-color: rgb(59, 130, 246) !important;
+}
+body.light-mode .bg-white\/5 {
+    background-color: rgba(0, 0, 0, 0.02) !important;
+}
+body.light-mode .text-blue-400 {
+    color: rgb(37, 99, 235) !important;
+}
+body.light-mode .text-yellow-400 {
+    color: rgb(217, 119, 6) !important;
+}
+body.light-mode .text-green-400 {
+    color: rgb(22, 163, 74) !important;
+}
+body.light-mode .text-red-400 {
+    color: rgb(220, 38, 38) !important;
+}
+body.light-mode .text-indigo-400 {
+    color: rgb(79, 70, 229) !important;
+}
+body.light-mode .text-purple-400 {
+    color: rgb(147, 51, 234) !important;
+}

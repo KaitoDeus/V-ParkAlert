@@ -1,0 +1,37 @@
+<!-- KPI stats -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div class="glass-card rounded-2xl p-5 flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-blue-600/10 flex items-center justify-center text-blue-400"><i class="fa-solid fa-clipboard-list text-2xl"></i></div>
+        <div>
+            <span class="text-xs text-gray-400 uppercase font-semibold">Tổng số vi phạm</span>
+            <h2 id="kpi-total" class="text-2xl font-extrabold text-white">0</h2>
+        </div>
+    </div>
+    <div class="glass-card rounded-2xl p-5 flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-yellow-600/10 flex items-center justify-center text-yellow-400"><i class="fa-solid fa-clock text-2xl"></i></div>
+        <div>
+            <span class="text-xs text-gray-400 uppercase font-semibold">Chờ phê duyệt</span>
+            <h2 id="kpi-pending" class="text-2xl font-extrabold text-white">0</h2>
+        </div>
+    </div>
+    <div class="glass-card rounded-2xl p-5 flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-green-600/10 flex items-center justify-center text-green-400"><i class="fa-solid fa-circle-check text-2xl"></i></div>
+        <div>
+            <span class="text-xs text-gray-400 uppercase font-semibold">Đã phê duyệt</span>
+            <h2 id="kpi-approved" class="text-2xl font-extrabold text-white">0</h2>
+        </div>
+    </div>
+    <div class="glass-card rounded-2xl p-5 flex items-center gap-4">
+        <div class="w-12 h-12 rounded-xl bg-red-600/10 flex items-center justify-center text-red-400"><i class="fa-solid fa-circle-xmark text-2xl"></i></div>
+        <div>
+            <span class="text-xs text-gray-400 uppercase font-semibold">Từ chối</span>
+            <h2 id="kpi-rejected" class="text-2xl font-extrabold text-white">0</h2>
+        </div>
+    </div>
+</div>
+
+<!-- Distribution Map -->
+<div class="glass-card rounded-2xl p-6 space-y-4">
+    <h3 class="text-lg font-bold text-white"><i class="fa-solid fa-map-location-dot text-blue-500 mr-2"></i>Bản đồ phân bố điểm nóng vi phạm</h3>
+    <div id="analytics-map" class="map-container"></div>
+</div>
